@@ -1,0 +1,144 @@
+
+/* &display=swap&subset=cyrillic-ext */
+
+@font-face {
+font-family: 'Comforter';
+src: url('../fonts/Comforter-Regular.woff2') format('woff2'),
+url('../fonts/Comforter-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+		url('../fonts/Gilroy-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400&display=swap&subset=cyrillic-ext");
+
+@import url('https://fonts.googleapis.com/css?family=Rasa:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap&subset=cyrillic-ext');
+
+/* обнуление стилей */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {list-style: none;
+}
+a,
+a:visited {text-decoration: none;
+}
+a:hover {text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html{
+font-size: 16px;
+}
+body{
+font-family: 'Gilroy';	
+line-height: 1;
+}
+
+.text_h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+text-shadow: 2px 5px 5px rgb(13, 51, 3);
+letter-spacing: 0.5px;
+margin: 10px;
+}
+
+.text_p {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.25;
+text-align: justify;
+text-indent: 30px;}
+
+.img {text-align: center;
+margin: 20px;}
+
+ul.menu a{
+font-family: "Arial",serif;
+font-size: 19px;
+text-decoration: underline;
+font-style: italic;
+color: green;
+}
+nav p{
+	text-indent: 19px;
+font-size: 21px;
+font-weight: 600;
+font-style: italic;
+color: rgb(233, 218, 17);
+text-shadow: 2px 2px 3px rgb(17, 17, 16);
+}
+h2 {
+	font-family: Gilroy, serif;
+	font-size: 26px;
+	color: hsla(240, 100%, 50%, 0.747);
+	text-align: center;
+	margin: 15px;
+	font-weight: 600;
+}
+
+.text2 {
+	font-family: Gilroy;
+	font-size: 17px;
+	text-indent: 15px;
+	font-weight: 400;
+	line-height: 1.6;
+	font-style: italic;
+	margin: 5px;
+	color: #040108cb;
+	text-decoration: underline;
+
+}
+
+span{
+	font-weight: 700;
+}
+
+footer a{
+	text-decoration: overline;
+}
+
+footer p{
+	font-family: Comforter ;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 800;
+	color: red;
+}
